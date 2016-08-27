@@ -5,7 +5,7 @@ NETWORK="network.map"
 #The nmap command you'd like to use for client discovery
 NMAP=`nmap -sn 192.168.1.0/24`
 #The email (SMS) address you would like notified when a new host is discovered
-EMAIL="5038932719@msg.fi.google.com."
+EMAIL="ENTER_EMAIL_HERE"
 IFS=$'\r\n' GLOBIGNORE='*' command eval  'XYZ=($NMAP)'
 XYZ=${XYZ[@]:1}
 
